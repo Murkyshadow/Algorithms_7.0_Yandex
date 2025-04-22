@@ -1,4 +1,3 @@
-# 22:04 - 22:55  22:23-00:28
 import math
 
 n = int(input())
