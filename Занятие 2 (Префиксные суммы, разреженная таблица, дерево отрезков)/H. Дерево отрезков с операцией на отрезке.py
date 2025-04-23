@@ -41,7 +41,7 @@ def upadte_segment(add_num, up_left, up_right, now_left, now_right, ind):
     return segment_tree[ind]
 
 search_num = -1
-promises_childs = [0]*len(segment_tree)    # или словарь?
+promises_childs = [0]*len(segment_tree)    # храним обещание для каждого элемента (обещеание предназначено для детей этого элемента)
 ans = []
 for _ in range(int(input())):
     request = input().split()
