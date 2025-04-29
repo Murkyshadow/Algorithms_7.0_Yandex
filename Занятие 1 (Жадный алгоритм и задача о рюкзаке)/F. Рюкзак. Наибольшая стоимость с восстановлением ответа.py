@@ -1,4 +1,4 @@
-# как прошлая задача, только еще путь восстанавливаем
+# как прошлая задача, только еще путь восстановить надо
 n, limit = map(int, input().split())
 weights = list(map(int, input().split()))
 costs = list(map(int, input().split()))
