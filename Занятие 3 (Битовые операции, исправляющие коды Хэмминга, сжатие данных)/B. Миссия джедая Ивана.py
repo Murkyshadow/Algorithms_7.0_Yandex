@@ -1,4 +1,3 @@
-# 21:38
 n = int(input())
 matrix = [list(map(int, input().split())) for _ in range(n)]
 ans = [[0,0,0,0] for _ in range(n)] # храним ответ в двоичной системе (4 разряда)
